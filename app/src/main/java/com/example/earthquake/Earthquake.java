@@ -50,7 +50,7 @@ public class Earthquake extends AppCompatActivity {
             if(urls.length<1 || urls[0] == null){
                 return null;
             }
-            List<Quake> result = QueryUtils.extractEarthQuakes( urls[0] );
+            List<Quake> result = QueryUtils.fetchEarthquakeData( urls[0] );
             return result;
 
         }

@@ -21,7 +21,7 @@ import java.util.List;
 public class QueryUtils {
 
         /** Sample JSON response for a USGS query */
-        private static final String SAMPLE_JSON_RESPONSE = "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&eventtype=earthquake&orderby=time&minmag=6&limit=10" ;
+
     private static final String LOG_TAG = QueryUtils.class.getSimpleName();
 
 
@@ -29,7 +29,7 @@ public class QueryUtils {
       }
 
 
-      private static List<Quake> fetchEarthquakeData(String requestUrl){
+      public static List<Quake> fetchEarthquakeData(String requestUrl){
 
         URL url = createUrl( requestUrl );
         String jsonResponse = null;
@@ -124,7 +124,8 @@ public class QueryUtils {
                  long time = properties.getLong( "time" );
                  String url = properties.getString( "url" );
 
-                 Earthquakes.add( new Quake(mag,place,time,url) );
+                 Quake currearthquake = new Quake( mag,place,time,url );
+                 Earthquakes.add(currearthquake);
               }
 
 
