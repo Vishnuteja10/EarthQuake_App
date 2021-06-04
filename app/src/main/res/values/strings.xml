@@ -3,4 +3,6 @@
     <string name="mag">mag</string>
     <string name="jahfjjghsjhjs">jahfjjghsjhjs</string>
     <string name="akjkdjfkskf">akjkdjfkskf</string>
+    <string name="no_earthquakes">Earthquakes not loaded</string>
+    <string name="no_internet">NO INTERNET CONNECTION</string>
 </resources>
