@@ -58,7 +58,7 @@ public class EarthquakeAdapter extends ArrayAdapter<Quake> {
 
         long time = currentearthquake.getTime();
         Date todate = new Date( time );
-        SimpleDateFormat dateFormat = new SimpleDateFormat( "MMM DD, yyyy" );
+        SimpleDateFormat dateFormat = new SimpleDateFormat( "MMM dd, yyyy" );
         String date = dateFormat.format( todate );
         TextView timeTextView = listitem.findViewById( R.id.txt3 );
         timeTextView.setText( date );
