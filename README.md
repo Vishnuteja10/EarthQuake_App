@@ -24,3 +24,6 @@ More Info on USGS Earthquake API :https://earthquake.usgs.gov/fdsnws/event/1/
 # WorkFlow
 
 
+https://user-images.githubusercontent.com/66770891/146666966-80cd77cf-da92-41ce-b332-95bf30ef887f.mp4
+
+
