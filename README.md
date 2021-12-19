@@ -12,3 +12,4 @@ More Info on USGS Earthquake API :https://earthquake.usgs.gov/fdsnws/event/1/
     .OrderBy : We can arrange data by decresing order of earthquake magnitude or by most recently occured
     .We can also set minimum magnitude
     
+![order by mag](https://user-images.githubusercontent.com/66770891/146666503-9a1c2656-7d39-4a7a-9856-47bfc710060e.jpeg)
