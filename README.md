@@ -26,4 +26,7 @@ More Info on USGS Earthquake API :https://earthquake.usgs.gov/fdsnws/event/1/
 
 https://user-images.githubusercontent.com/66770891/146666966-80cd77cf-da92-41ce-b332-95bf30ef887f.mp4
 
+# Run Locally
+Run my app on your device through this link :https://drive.google.com/file/d/1XfpwE9_T9vzC-SIT7-xa3s65w5bV107n/view?usp=drivesdk
+
 
